@@ -1,4 +1,4 @@
-﻿/*
+/*
 ID:lucypeo1
 LANG:C++11
 PROB:runround
@@ -58,6 +58,7 @@ int main() {
 	freopen("runround.out", "w", stdout);
 	long long x;
 	cin >> x;
+	x++;
 	while (!ifround(x)) {
 		x++;
 	}
